@@ -1,0 +1,68 @@
+.body {
+  background-color: whitesmoke;
+}
+header > h1 {
+  font-family: "Cinzel Decorative", serif;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 900;
+  font-size: 3rem;
+}
+hr {
+  height: 6px;
+  background-color: hotpink;
+  border: none;
+  width: 50vw;
+  margin: 0 auto;
+}
+.hot-pink {
+  color: hotpink;
+}
+.custom-navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  background-color: #ff69b41a;
+}
+.custom-navbar .btn {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.my-carousel {
+  height: 55vh;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-top: 3vh;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.my-carousel .carousel-inner {
+  height: 100%;
+}
+
+.my-carousel .carousel-item {
+  height: 100%;
+}
+
+.my-carousel .carousel-item img {
+  height: 100%;
+  object-fit: cover; /* or 'contain' if you prefer */
+  width: 100%;
+}
+.search-bar > input {
+  height: 3rem;
+  width: 40vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+}
+.search-bar > button {
+  margin-left: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
